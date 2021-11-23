@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(./../cenario.jpg);
+    background-image: url(./);
     background-size: 110%;
 }
 
@@ -41,16 +41,41 @@ body {
 }
 
 .introducao{
-    width: 900px;
+    width: 300px;
     text-align: center;
-    font-size: 24px;
-    margin-top: 200px;
-    background: gray;
-    opacity: 0.9;
-    padding: 5px;
-    margin-bottom: 100px;
-    border: 10px;
+    font-size: 16px;
+    background: white;
+    padding: 10px;
+    border: 10px solid gray;
     border-radius: 15px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.opcaoUm{
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    background:white;
+    margin-bottom: 50px;
+    margin-top: 170px;
+    padding: 5px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    height: 190px;
+}
+
+.opcaoDois{
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    background: white;
+    margin-bottom: 50px;
+    margin-top: 170px;
+    padding: 7px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    height: 190px;
 }
 
 footer {
