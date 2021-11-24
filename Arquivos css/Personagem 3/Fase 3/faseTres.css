@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-image: url(./../../../Imagens/Personagem3/cenarioFaseTres.jpg);
+    background-size: 100%;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    background: gray;
+    opacity: 0.9;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-size: 30px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+
+.recomecar {
+    margin-top: 10px;
+    margin-right: 70px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.recomecar:hover {
+    font-size: 17px;
+    color: #DAA520;
+}
+
+.menu-introdutorio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.introducao{
+    width: 350px;
+    text-align: center;
+    font-size: 17px;
+    background: white;
+    padding: 10px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    height: 380px;
+    margin-top: 50px;
+}
+
+.opcaoUm{
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    background:white;
+    margin-bottom: 50px;
+    margin-top: 170px;
+    padding: 7px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    height: 125px;
+}
+
+.opcaoDois{
+    width: 300px;
+    text-align: center;
+    font-size: 17px;
+    background: white;
+    margin-bottom: 50px;
+    margin-top: 170px;
+    padding: 7px;
+    border: 10px solid gray;
+    border-radius: 15px;
+    height: 125px;
+}
+
+footer {
+    background: gray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;    
+    text-align: center;
+    line-height: 10px;
+}
