@@ -7,11 +7,11 @@ function decidirPersonagens(){
 personagemEscolhido = prompt("Escolha seu personagem! Digite o nome correspondente:\n- Caitlyn\n- Mel\n- Vander")
 while(true){
     if(personagemEscolhido == 'Caitlyn'){
-        location= "http://127.0.0.1:5500/Arquivos%20html/Personagem%201%20html/caitlynIntroducao.html"
+        window.location.href= "http://127.0.0.1:5500/Arquivos%20html/Personagem%201%20html/caitlynIntroducao.html"
         break;
 
-    }else if(personagemEscolhido == 'Mel'){
-        location = "http://127.0.0.1:5500/Arquivos%20html/Personagem%202%20html/melIntroducao.html"
+    }else if(personagemEscolhido == 'http://127.0.0.1:5500/Arquivos%20html/Personagem%202%20html/melIntroducao.html'){
+        location = ""
         break;
 
     }else if(personagemEscolhido == 'Vander'){
