@@ -80,16 +80,37 @@ footer {
     line-height: 10px;
 }
 
-@media (max-width:800px){
-    body {
-       width: 100%;
-       height: 100%;
-       display: flex;
+@media (max-width: 700px) {
+    .cabecalho{
+        width: 352px;
     }
-    header {
-       width: 100%;
-       height: 100px;
-       font-size: medium;
-       box-sizing: border-box;
+
+    .recomecar {
+        margin-right: 10px;
     }
+    
+    .introducao {
+        margin-left:18px;
+        justify-content: flex-start;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .titulo{
+        margin-left: 20px;
+    }
+
+    .botao{
+        margin-left: 80px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    footer{
+        width: 352px;
+        position: initial;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    
 }
