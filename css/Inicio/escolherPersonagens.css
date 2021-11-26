@@ -67,7 +67,7 @@ footer {
 
 @media (max-width: 700px) {
     .cabecalho{
-        width: 380px;
+        width: 400px;
     }
 
     .recomecar {
@@ -89,7 +89,7 @@ footer {
     }
 
     footer{
-        width: 380px;
+        width: 400px;
         top: 600px;
 
     }
