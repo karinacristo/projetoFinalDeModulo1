@@ -82,7 +82,7 @@ footer {
 
 @media (max-width: 700px) {
     .cabecalho{
-        width: 365px;
+        width: 380px;
     }
 
     .recomecar {
@@ -90,7 +90,7 @@ footer {
     }
     
     .introducao {
-        margin-left:27px;
+        margin-left:29px;
         justify-content: flex-start;
         width: 300px;
         padding: 10px;
@@ -107,7 +107,7 @@ footer {
     }
 
     footer{
-        width: 365px;
+        width: 380px;
         position: initial;
         font-size: 13px;
         line-height: 30px;
