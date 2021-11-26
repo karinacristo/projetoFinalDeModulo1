@@ -64,3 +64,34 @@ footer {
     text-align: center;
     line-height: 10px;
 }
+
+@media (max-width: 700px) {
+    .cabecalho{
+        width: 365px;
+    }
+
+    .recomecar {
+        margin-right: 10px;
+    }
+    
+    .escolher {
+        display: initial;
+        align-items: center;
+    }
+
+    .titulo{
+        margin-left: 20px;
+    }
+
+    .personagens{
+        margin-top: 20px;
+    margin-left: 135px;
+    }
+
+    footer{
+        width: 365px;
+        top: 600px;
+
+    }
+    
+}
