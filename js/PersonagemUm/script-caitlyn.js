@@ -1,6 +1,7 @@
-function continuarHistoria(){
-    alert("Continuar")
+function passarFase(){
+    alert("Prosseguir com a história")
     return location = ('./FaseUm/faseUm.html')
 
 }
-setTimeout(continuarHistoria, 4000);
+
+setTimeout(passarFase, 3000)

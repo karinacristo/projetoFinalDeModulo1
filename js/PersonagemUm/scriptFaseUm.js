@@ -1,4 +1,4 @@
-function decidirOpcao(){
+function passarFase(){
     var escolha
     var opcaoUm = ('1')
     var opcaoDois = ('2')
@@ -20,4 +20,4 @@ while(true){
     }
 }
 
-setTimeout(decidirOpcao, 3000)
+setTimeout(passarFase, 3000)
